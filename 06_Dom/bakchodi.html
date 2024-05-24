@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: #212121;">
+    <button id="Btn">LUNDDDDDD
+
+    </button>
+    <div id="count" style="color:blue">count=</div>
+</body>
+<script>
+    let count = 0;
+    document.querySelector('#Btn').addEventListener('click', function () {
+        // console.log("Button pressed")
+        count++;
+        console.log(count);
+        const cot = document.getElementById('count')
+        cot.innerHTML = ("count=", count)
+
+    })
+</script>
+
+</html>
